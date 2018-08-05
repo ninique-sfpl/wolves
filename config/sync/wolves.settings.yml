@@ -1,0 +1,24 @@
+schemas:
+  bootstrap: 8000
+  wolves: 8000
+favicon:
+  mimetype: image/gif
+  path: 'public://logo.gif'
+  url: 'http://wolves.local/sites/default/files/logo_0.gif'
+  use_default: 0
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
+logo:
+  path: 'public://logo.gif'
+  url: ''
+  use_default: 0
+region_wells:
+  header: ''
+  content: ''
+  sidebar_second: ''
+  footer: ''
+fluid_container: 1
+table: ''

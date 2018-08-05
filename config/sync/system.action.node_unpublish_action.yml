@@ -1,0 +1,13 @@
+uuid: e58fa10a-25d7-4c7f-9c5b-128ce0063647
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
+id: node_unpublish_action
+label: 'Unpublish content'
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }
