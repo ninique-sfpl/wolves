@@ -1,0 +1,16 @@
+name: wolves
+type: theme
+description: Wolves theme
+core: 8.x
+# Defines the base theme
+base theme: bootstrap
+# Regions
+regions:
+  header: Header
+  content: Content
+  sidebar_second: Second sidebar
+  footer: Footer
+
+libraries:
+  - 'wolves/global-styling'
+  - 'wolves/font-awesome'
