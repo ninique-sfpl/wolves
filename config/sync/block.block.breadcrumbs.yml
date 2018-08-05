@@ -9,7 +9,7 @@ dependencies:
 id: breadcrumbs
 theme: wolves
 region: content
-weight: -4
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

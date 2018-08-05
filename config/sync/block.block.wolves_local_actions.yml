@@ -1,6 +1,6 @@
 uuid: 06c89eee-5179-4b66-8232-a585c09854b9
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - wolves
@@ -9,7 +9,7 @@ _core:
 id: wolves_local_actions
 theme: wolves
 region: header
-weight: -2
+weight: -1
 provider: null
 plugin: local_actions_block
 settings:

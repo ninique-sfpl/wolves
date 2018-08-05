@@ -1,6 +1,6 @@
 uuid: cc8c17de-dcf9-4cc5-ac32-7a45ad814129
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -13,7 +13,7 @@ _core:
 id: wolves_main_menu
 theme: wolves
 region: header
-weight: -4
+weight: -2
 provider: null
 plugin: 'system_menu_block:main'
 settings:
