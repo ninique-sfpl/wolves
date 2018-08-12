@@ -13,3 +13,43 @@ h2{
 .logo{
 	margin-right:50px;
 }
+
+body.simplelogin{
+	background-image:none;
+	background-color:#F0F0F0;
+}
+
+input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color:#F0F0F0!important;
+}
+
+.region-header .form-search, .region-header button{
+	margin-top: 40px;
+}
+
+.region-header{
+	border-bottom: solid 3px #F0F0F0;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+
+.region-content{
+	padding-left: 20px;
+	border-right: solid 3px #F0F0F0;
+	padding-right: 20px;
+	
+}
+
+.page-header{
+	border-bottom: none;
+	margin-bottom:5px;
+}
+
+.author{
+	font-size:10px;
+	margin-bottom:5px;
+}
+
+.field--name-field-tags{
+	font-size:10px;
+}
