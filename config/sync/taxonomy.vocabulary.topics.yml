@@ -1,0 +1,9 @@
+uuid: 3a23bc2c-0a32-4b50-9f63-1ab1159f20e2
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: topics
+description: 'Category of subjects'
+hierarchy: 0
+weight: 0

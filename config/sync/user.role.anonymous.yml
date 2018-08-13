@@ -11,4 +11,3 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access site-wide contact form'
-  - 'use text format restricted_html'
