@@ -4,14 +4,15 @@ status: true
 dependencies:
   module:
     - search
+    - user
   theme:
     - wolves
 _core:
   default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
 id: wolves_search
 theme: wolves
-region: sidebar_second
-weight: -4
+region: header
+weight: -3
 provider: null
 plugin: search_form_block
 settings:
@@ -19,4 +20,12 @@ settings:
   label: Search
   provider: search
   label_display: visible
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

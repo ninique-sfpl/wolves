@@ -1,0 +1,41 @@
+uuid: ad4187eb-b790-4564-8042-9fe511c414ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - hierarchical_taxonomy_menu
+    - user
+  theme:
+    - wolves
+id: hierarchicaltaxonomymenu
+theme: wolves
+region: sidebar_second
+weight: 0
+provider: null
+plugin: hierarchical_taxonomy_menu
+settings:
+  id: hierarchical_taxonomy_menu
+  label: 'Hierarchical Taxonomy Menu'
+  provider: hierarchical_taxonomy_menu
+  label_display: '0'
+  vocabulary: topics|field_categories_image
+  max_depth: '10'
+  max_age: PERMANENT
+  base_term: ''
+  use_image_style: 1
+  image_height: '16'
+  image_width: '16'
+  image_style: thumbnail
+  collapsible: 1
+  interactive_parent: 1
+  dynamic_base_term: 1
+  dynamic_block_title: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

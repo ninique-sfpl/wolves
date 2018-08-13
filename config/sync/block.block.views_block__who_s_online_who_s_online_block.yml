@@ -1,29 +1,27 @@
-uuid: 681bcc0b-8337-41b2-be8f-df5aad7d3d29
+uuid: f514a25b-1cac-4b65-aee5-3ad4ae1cd91e
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.account
+    - views.view.who_s_online
   module:
-    - system
     - user
+    - views
   theme:
     - wolves
-_core:
-  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
-id: wolves_account_menu
+id: views_block__who_s_online_who_s_online_block
 theme: wolves
-region: header
-weight: -4
+region: sidebar_second
+weight: 0
 provider: null
-plugin: 'system_menu_block:account'
+plugin: 'views_block:who_s_online-who_s_online_block'
 settings:
-  id: 'system_menu_block:account'
-  label: 'User account menu'
-  provider: system
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
   label_display: '0'
-  level: 1
-  depth: 2
+  views_label: ''
+  items_per_page: none
 visibility:
   user_role:
     id: user_role
