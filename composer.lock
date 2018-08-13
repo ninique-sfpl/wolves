@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "066619182c2d2fbeda93bdf0c6a4e939",
-    "content-hash": "8d044f07cc6aa22083ae0f3360c8ddf3",
+    "hash": "14aaf7ecb1f5d0f93498020ee005345e",
+    "content-hash": "40bac0e68686b347cf9e1aab873f2494",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1728,6 +1728,53 @@
             }
         },
         {
+            "name": "drupal/ckeditor_markdown",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ckeditor_markdown",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_markdown-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "a379aa3ef7991b7b18c3f13ad03336dc2d1b940e"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1477329243",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JeroenT",
+                    "homepage": "https://www.drupal.org/user/2228934"
+                }
+            ],
+            "description": "Enables Markdown Plugin for CKEditor.",
+            "homepage": "https://www.drupal.org/project/ckeditor_markdown",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ckeditor_markdown"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.8.0",
             "source": {
@@ -2299,6 +2346,57 @@
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
             "time": "2018-08-04 16:41:49"
+        },
+        {
+            "name": "drupal/hierarchical_taxonomy_menu",
+            "version": "1.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/hierarchical_taxonomy_menu",
+                "reference": "8.x-1.25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/hierarchical_taxonomy_menu-8.x-1.25.zip",
+                "reference": "8.x-1.25",
+                "shasum": "d0af563a91cda233b1f709e232483b8b6f922d73"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.25",
+                    "datestamp": "1532806981",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Goran Nikolovski",
+                    "homepage": "http://gorannikolovski.com",
+                    "email": "nikolovski84@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Hierarchical Taxonomy Menu is a Drupal 8 module for creating menus from taxonomy vocabularies.",
+            "homepage": "http://drupal.org/project/hierarchical_taxonomy_menu",
+            "support": {
+                "source": "http://cgit.drupalcode.org/hierarchical_taxonomy_menu",
+                "issues": "https://www.drupal.org/project/issues/hierarchical_taxonomy_menu",
+                "email": "nikolovski84@gmail.com"
+            }
         },
         {
             "name": "drupal/simplelogin",
