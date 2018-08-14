@@ -11,7 +11,7 @@ h2{
 }
 
 .logo{
-	margin-right:50px;
+	margin-right:0;
 }
 
 body.simplelogin{
@@ -24,13 +24,13 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .region-header .form-search, .region-header button{
-	margin-top: 40px;
+	margin-top: 15px;
 }
 
 .region-header{
 	border-bottom: solid 3px #F0F0F0;
-	margin-bottom: 30px;
-	padding-bottom: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 0;
 }
 
 .region-content{
@@ -57,4 +57,20 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 .simplelogin-bg .region-content .page-header{
 	text-align: center;
 	font-size:16px;
+}
+
+.logo img, .simplelogin-logo img{
+	width:60px;
+}
+
+body{
+	margin-top: 5px;
+}
+
+.navbar-brand {
+	padding: 20px 60px 0 10px;
+}
+
+.navbar-nav > li > a {
+	padding-top:22px;
 }

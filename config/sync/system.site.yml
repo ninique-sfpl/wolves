@@ -1,11 +1,11 @@
 uuid: e2aa2417-0933-4660-88a2-0eabfb963d32
 name: 'Wolves Zone'
 mail: admin@example.com
-slogan: ''
+slogan: 'Wolves Zone'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
