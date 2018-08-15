@@ -126,3 +126,9 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	background-color: #fff;
 	border-color: #ccc;
 }
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #eee;
+	border-color: #ccc;
+}
