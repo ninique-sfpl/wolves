@@ -4,8 +4,8 @@ mail: admin@example.com
 slogan: 'Wolves Zone'
 page:
   403: ''
-  404: ''
-  front: /node/
+  404: /user/login
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

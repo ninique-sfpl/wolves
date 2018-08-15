@@ -1,8 +1,30 @@
+@font-face {
+    font-family: Gotham-book;
+    src: url('../fonts/gotham_svs/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-light;
+    src: url('../fonts/gotham_svs/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: Gotham-medium;
+    src: url('../fonts/gotham_svs/Gotham-Medium.otf');
+}
+
+body{
+	font-family:Gotham-book;
+	margin-top: 5px;
+}
+
 h1{
+	font-family:Gotham-medium;
 	font-size:20px;
 }
 
 h2{
+	font-family:Gotham-medium;
 	font-size:18px;
 }
 
@@ -54,23 +76,53 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	font-size:10px;
 }
 
+.logo img, .simplelogin-logo img{
+	width:60px;
+}
+
+.navbar-brand {
+	padding: 20px 60px 0 10px;
+	color: #A52A2A;
+}
+
+.navbar-nav > li > a {
+	margin:1px;
+	margin-top:15px;
+	padding: 8px 8px 7px 8px;
+	font-size: 12px;
+}
+
 .simplelogin-bg .region-content .page-header{
 	text-align: center;
 	font-size:16px;
 }
 
-.logo img, .simplelogin-logo img{
-	width:60px;
+.simplelogin-form input.form-submit, .simplelogin-form button.form-submit, .simplelogin-form input.form-submit:hover, .simplelogin-form input.form-submit:active, .simplelogin-form input.form-submit:focus, .simplelogin .link:hover, .simplelogin .link:focus {
+	padding:10px;
+	background-color:#FFF;
 }
 
-body{
-	margin-top: 5px;
+.simplelogin-form input.form-submit:hover, .simplelogin-form button.form-submit:hover, .simplelogin-form input.form-submit:hover, .simplelogin .link:hover {
+	background-color:#eee;
 }
 
-.navbar-brand {
-	padding: 20px 60px 0 10px;
+.simplelogin-form input[type="submit"], .simplelogin-form button.form-submit {
+    text-transform: capitalize;
+    font-size:14px;
+    font-weight: normal;
+    color:#0d5eae;
 }
 
-.navbar-nav > li > a {
-	padding-top:22px;
+.simplelogin h1 {
+	color: #A52A2A;
+}
+
+.page-header {
+	color: #808080!important;
+}
+
+.btn-primary {
+	color: #ccc;
+	background-color: #fff;
+	border-color: #ccc;
 }
