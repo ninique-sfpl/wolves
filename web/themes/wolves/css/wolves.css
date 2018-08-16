@@ -13,6 +13,11 @@
     src: url('../fonts/gotham_svs/Gotham-Medium.otf');
 }
 
+@font-face {
+    font-family: Gotham-bold;
+    src: url('../fonts/gotham_svs/GOTHAM-BOLD.TTF');
+}
+
 body{
 	font-family:Gotham-book;
 	margin-top: 5px;
@@ -50,14 +55,14 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .region-header{
-	border-bottom: solid 3px #F0F0F0;
+	border-bottom: solid 1px #F0F0F0;
 	margin-bottom: 20px;
 	padding-bottom: 0;
 }
 
 .region-content{
 	padding-left: 20px;
-	border-right: solid 3px #F0F0F0;
+	border-right: solid 1px #F0F0F0;
 	padding-right: 20px;
 	
 }
@@ -81,8 +86,11 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .navbar-brand {
-	padding: 20px 60px 0 10px;
-	color: #A52A2A;
+	padding: 25px 60px 0 10px;
+	color: #FF8C00;
+	font-family:Gotham-book;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
@@ -114,7 +122,10 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .simplelogin h1 {
-	color: #A52A2A;
+	color: #FF8C00;
+	font-family:Gotham-book;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .page-header {
