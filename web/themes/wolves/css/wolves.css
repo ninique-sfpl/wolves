@@ -1,3 +1,5 @@
+@import url("icon.css");
+
 @font-face {
     font-family: Gotham-book;
     src: url('../fonts/gotham_svs/Gotham-Book.otf');
@@ -20,9 +22,14 @@
 
 body{
 	font-family:Gotham-book;
-	margin-top: 5px;
+	margin-top: 0;
+	background-color: #333333;
+	color:#ffffff;
 }
 
+.container-fluid{
+	padding:0;
+}
 h1{
 	font-family:Gotham-medium;
 	font-size:20px;
@@ -41,11 +48,6 @@ h2{
 	margin-right:0;
 }
 
-body.simplelogin{
-	background-image:none;
-	background-color:#F0F0F0;
-}
-
 input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 	background-color:#F0F0F0!important;
 }
@@ -55,13 +57,19 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .region-header{
-	border-bottom: solid 1px #F0F0F0;
-	margin-bottom: 20px;
+	border-bottom: double 3px #FF8C00;
+	margin: 0 0 20px 0;
+	padding:0 25px 0 25px;
 	padding-bottom: 0;
+	background-color: #111111; /* #262b30; */
+}
+
+.region-header a{
+	color:#fff;
 }
 
 .region-content{
-	padding-left: 20px;
+	padding-left: 40px;
 	border-right: solid 1px #F0F0F0;
 	padding-right: 20px;
 	
@@ -85,10 +93,10 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	width:60px;
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-brand:hover, .navbar-brand a {
 	padding: 25px 60px 0 10px;
-	color: #FF8C00;
-	font-family:Gotham-book;
+	color: #FF8C00!important;
+	font-family:Gotham-bold;
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -98,6 +106,11 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	margin-top:15px;
 	padding: 8px 8px 7px 8px;
 	font-size: 12px;
+}
+
+body.simplelogin{
+	background-image:none;
+	background-color:#262b30;
 }
 
 .simplelogin-bg .region-content .page-header{
@@ -123,7 +136,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 
 .simplelogin h1 {
 	color: #FF8C00;
-	font-family:Gotham-book;
+	font-family:Gotham-bold;
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -143,3 +156,23 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	background-color: #eee;
 	border-color: #ccc;
 }
+
+input:-webkit-autofill, input:-webkit-autofill:focus {
+    -webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+.region-header form-search {
+	border-right-width: 0;
+}
+
+.menu--account a:hover{
+	background-color: #111111!important;
+}
+
+a {
+	color:#92bfbf;
+}
+
+
+
+

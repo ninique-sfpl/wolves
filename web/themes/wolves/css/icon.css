@@ -1,0 +1,48 @@
+.icon-coding:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f121";
+}
+
+.icon-family:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f004";
+}
+
+.icon-food:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f094";
+}
+
+.icon-health:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f0fa";
+}
+
+.icon-knives:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f0d0";
+}
+
+.icon-skincare:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f221";
+}
+
+.icon-wildlife:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f1b0";
+}
