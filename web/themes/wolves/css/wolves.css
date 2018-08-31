@@ -1,3 +1,6 @@
+/*
+ orange brand name: #F69925
+ */
 @import url("icon.css");
 
 @font-face {
@@ -57,7 +60,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .region-header{
-	border-bottom: double 3px #FF8C00;
+	border-bottom: solid 2px #F69925;
 	margin: 0 0 20px 0;
 	padding:0 25px 0 25px;
 	padding-bottom: 0;
@@ -66,6 +69,11 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 
 .region-header a{
 	color:#fff;
+}
+
+.region-header .form-search{
+	float:right;
+	width: 200px;
 }
 
 .region-content{
@@ -95,7 +103,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 
 .navbar-brand, .navbar-brand:hover, .navbar-brand a {
 	padding: 25px 60px 0 10px;
-	color: #FF8C00!important;
+	color: #F69925!important;
 	font-family:Gotham-bold;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -173,6 +181,10 @@ a {
 	color:#92bfbf;
 }
 
+a:hover{
+	background-color:transparent!important;
+	color:#F69925;
+}
 
 
 

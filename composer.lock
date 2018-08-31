@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "962a2580e397cc7d5b1fb327eda6080d",
-    "content-hash": "d00dd3c3058ca833049cee1243c21610",
+    "hash": "b2b5f4b1ec303c7e5846df683899b8ef",
+    "content-hash": "379f5204b3ed7a81eaab78ed63d1039c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2348,21 +2348,94 @@
             "time": "2018-08-04 16:41:49"
         },
         {
-            "name": "drupal/hierarchical_taxonomy_menu",
-            "version": "1.25.0",
+            "name": "drupal/fontawesome",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/hierarchical_taxonomy_menu",
-                "reference": "8.x-1.25"
+                "url": "https://git.drupal.org/project/fontawesome",
+                "reference": "8.x-2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/hierarchical_taxonomy_menu-8.x-1.25.zip",
-                "reference": "8.x-1.25",
-                "shasum": "d0af563a91cda233b1f709e232483b8b6f922d73"
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "6f2270bfaaac9a79b3ed2692220af8bbe2d87637"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1531922912",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel.Moberly",
+                    "homepage": "https://www.drupal.org/user/1160788"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "cosmicdreams",
+                    "homepage": "https://www.drupal.org/user/42579"
+                },
+                {
+                    "name": "geerlingguy",
+                    "homepage": "https://www.drupal.org/user/389011"
+                },
+                {
+                    "name": "inders",
+                    "homepage": "https://www.drupal.org/user/127640"
+                },
+                {
+                    "name": "truls1502",
+                    "homepage": "https://www.drupal.org/user/325866"
+                }
+            ],
+            "description": "The web's most popular icon set and toolkit.",
+            "homepage": "https://www.drupal.org/project/fontawesome",
+            "support": {
+                "source": "http://cgit.drupalcode.org/fontawesome"
+            }
+        },
+        {
+            "name": "drupal/geshifilter",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/geshifilter",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/geshifilter-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "bd0064b1a9a1ed8503dfa3d8bfb612ed90f00b55"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "geshi/geshi": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -2370,8 +2443,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.25",
-                    "datestamp": "1532806981",
+                    "version": "8.x-1.2",
+                    "datestamp": "1511969884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2384,18 +2457,69 @@
             ],
             "authors": [
                 {
-                    "name": "Goran Nikolovski",
-                    "homepage": "http://gorannikolovski.com",
-                    "email": "nikolovski84@gmail.com",
-                    "role": "Developer"
+                    "name": "boombatower",
+                    "homepage": "https://www.drupal.org/user/214218"
+                },
+                {
+                    "name": "soxofaan",
+                    "homepage": "https://www.drupal.org/user/41478"
+                },
+                {
+                    "name": "yukare",
+                    "homepage": "https://www.drupal.org/user/889254"
                 }
             ],
-            "description": "Hierarchical Taxonomy Menu is a Drupal 8 module for creating menus from taxonomy vocabularies.",
-            "homepage": "http://drupal.org/project/hierarchical_taxonomy_menu",
+            "description": "Provides a filter to highlight source code using the GeSHi library (Generic Syntax Highlighter).",
+            "homepage": "https://www.drupal.org/project/geshifilter",
             "support": {
-                "source": "http://cgit.drupalcode.org/hierarchical_taxonomy_menu",
-                "issues": "https://www.drupal.org/project/issues/hierarchical_taxonomy_menu",
-                "email": "nikolovski84@gmail.com"
+                "source": "http://cgit.drupalcode.org/geshifilter"
+            }
+        },
+        {
+            "name": "drupal/link_attributes",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/link_attributes",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/link_attributes-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "0e980e47e8f568f88aac07885803a5307293d643"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1526769180",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Provides a widget to allow settings of link attributes for menu links.",
+            "homepage": "https://www.drupal.org/project/link_attributes",
+            "support": {
+                "source": "http://cgit.drupalcode.org/link_attributes"
             }
         },
         {
@@ -2711,6 +2835,46 @@
                 "validator"
             ],
             "time": "2017-02-03 22:48:59"
+        },
+        {
+            "name": "geshi/geshi",
+            "version": "v1.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeSHi/geshi-1.0.git",
+                "reference": "5a7b461338d322d941986a656d4d1651452e73dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeSHi/geshi-1.0/zipball/5a7b461338d322d941986a656d4d1651452e73dd",
+                "reference": "5a7b461338d322d941986a656d4d1651452e73dd",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/geshi/",
+                    "src/geshi.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Benny Baumann",
+                    "email": "BenBE@geshi.org",
+                    "homepage": "http://blog.benny-baumann.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generic Syntax Highlighter",
+            "homepage": "http://qbnz.com/highlighter/",
+            "time": "2017-05-05 05:51:25"
         },
         {
             "name": "grasmash/expander",

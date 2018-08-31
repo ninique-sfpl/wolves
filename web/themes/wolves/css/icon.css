@@ -46,3 +46,17 @@
   font-family: FontAwesome;
   content: "\f1b0";
 }
+
+.region-header .menu--account li:first-child a:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: FontAwesome;
+  content: "\f007";
+}
+
+.region-header .menu--account li:last-child a:before {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-family: 'FontAwesome';
+  content: "\f28d";
+}
