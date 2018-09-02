@@ -14,3 +14,6 @@ regions:
 libraries:
   - 'wolves/global-styling'
   - 'wolves/font-awesome'
+
+ckeditor_stylesheets:
+  - css/ckeditor.css
