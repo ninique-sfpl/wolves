@@ -16,7 +16,7 @@
   display: inline-block;
   padding-right: 0.5em;
   font-family: FontAwesome;
-  content: "\f094";
+  content: "\f0f4"; /* "\f094"; */
 }
 
 .icon-health:before {
@@ -40,23 +40,30 @@
   content: "\f221";
 }
 
-.icon-wildlife:before {
+.icon-wildlife::before {
   display: inline-block;
   padding-right: 0.5em;
-  font-family: FontAwesome;
+  font-family: FontAwesome; 
   content: "\f1b0";
 }
 
+/*
 .region-header .menu--account li:first-child a:before {
   display: inline-block;
   padding-right: 0.5em;
   font-family: FontAwesome;
-  content: "\f007";
+  content: "\f2bd";
 }
 
-.region-header .menu--account li:last-child a:before {
+.region-header .menu--account li:last-child a::before {
   display: inline-block;
   padding-right: 0.5em;
   font-family: 'FontAwesome';
-  content: "\f28d";
+  content: "\f2f5";
+}
+*/
+
+.search-form .form-submit.icon-only, .form-type-search .form-submit.icon-only{
+  background-color: #2d2d2d;
+  border-left-width:0;
 }

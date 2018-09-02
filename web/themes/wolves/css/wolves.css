@@ -1,5 +1,6 @@
 /*
  orange brand name: #F69925
+ background-medium: #2D2D2D;
  */
 @import url("icon.css");
 
@@ -26,7 +27,7 @@
 body{
 	font-family:Gotham-book;
 	margin-top: 0;
-	background-color: #333333;
+	background-color: #2D2D2D;
 	color:#ffffff;
 }
 
@@ -52,7 +53,8 @@ h2{
 }
 
 input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-	background-color:#F0F0F0!important;
+	background-color: #2D2D2D!important;
+	color: #FFF!important;
 }
 
 .region-header .form-search, .region-header button{
@@ -80,7 +82,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	padding-left: 40px;
 	border-right: solid 1px #F0F0F0;
 	padding-right: 20px;
-	
+	background-color: transparent;
 }
 
 .page-header{
@@ -118,7 +120,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 
 body.simplelogin{
 	background-image:none;
-	background-color:#262b30;
+	background-color:#2D2D2D;
 }
 
 .simplelogin-bg .region-content .page-header{
@@ -126,20 +128,34 @@ body.simplelogin{
 	font-size:16px;
 }
 
+.simplelogin-bg .region-content {
+	border-right: 0;
+}
+
+.simplelogin-form{
+	background-color: #111111;
+}
 .simplelogin-form input.form-submit, .simplelogin-form button.form-submit, .simplelogin-form input.form-submit:hover, .simplelogin-form input.form-submit:active, .simplelogin-form input.form-submit:focus, .simplelogin .link:hover, .simplelogin .link:focus {
 	padding:10px;
-	background-color:#FFF;
 }
 
 .simplelogin-form input.form-submit:hover, .simplelogin-form button.form-submit:hover, .simplelogin-form input.form-submit:hover, .simplelogin .link:hover {
-	background-color:#eee;
+	background-color:#4EAO48;
 }
 
 .simplelogin-form input[type="submit"], .simplelogin-form button.form-submit {
     text-transform: capitalize;
     font-size:14px;
     font-weight: normal;
-    color:#0d5eae;
+    color:#fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    border-width: auto;
+}
+
+.simplelogin-form input{
+	background-color: #2D2D2D!important;
+	color:#ffffff!important;
 }
 
 .simplelogin h1 {
@@ -186,5 +202,18 @@ a:hover{
 	color:#F69925;
 }
 
+.field--item pre{
+	padding:0;
+}
+
+input{
+	color:#fff!important;
+	background-color: #2D2D2D!important;
+}
+
+.search-advanced{
+	olor:#fff!important;
+	background-color: #2D2D2D!important;
+}
 
 
