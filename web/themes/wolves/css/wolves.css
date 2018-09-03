@@ -28,7 +28,8 @@ body{
 	font-family:Gotham-book;
 	margin-top: 0;
 	background-color: #2D2D2D;
-	color:#ffffff;
+	color:#C0C0C0;
+	font-size: 180%;
 }
 
 .container-fluid{
@@ -36,25 +37,21 @@ body{
 }
 h1{
 	font-family:Gotham-medium;
-	font-size:20px;
+	font-size:28px;
 }
 
 h2{
 	font-family:Gotham-medium;
-	font-size:18px;
+	font-size:24px;
 }
 
 .region-footer{
 	text-align:center;
 }
 
-.logo{
-	margin-right:0;
-}
-
 input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 	background-color: #2D2D2D!important;
-	color: #FFF!important;
+	color: #C0C0C0!important;
 }
 
 .region-header .form-search, .region-header button{
@@ -70,13 +67,35 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 }
 
 .region-header a{
-	color:#fff;
+	color:#C0C0C0;
+	font-size: 20px;
 }
 
 .region-header .form-search{
 	float:right;
 	width: 200px;
 }
+
+.region-header .menu--account li a {
+	font-size: 100%;
+}
+
+.region-header form-search {
+	border-right-width: 0;
+}
+
+.region-header .logo{
+	margin-top:-5px;
+}
+
+.logo{
+	margin-right:0;
+}
+
+.logo img, .simplelogin-logo img{
+	width:60px;
+}
+
 
 .region-content{
 	padding-left: 40px;
@@ -99,23 +118,18 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	font-size:10px;
 }
 
-.logo img, .simplelogin-logo img{
-	width:60px;
-}
-
 .navbar-brand, .navbar-brand:hover, .navbar-brand a {
 	padding: 25px 60px 0 10px;
 	color: #F69925!important;
-	font-family:Gotham-bold;
-	font-size: 20px;
-	text-transform: uppercase;
+	font-family:Gotham-light!important;
+	font-size: 32px!important;
 }
 
 .navbar-nav > li > a {
 	margin:1px;
 	margin-top:15px;
 	padding: 8px 8px 7px 8px;
-	font-size: 12px;
+	font-size: 200%;
 }
 
 body.simplelogin{
@@ -155,14 +169,13 @@ body.simplelogin{
 
 .simplelogin-form input{
 	background-color: #2D2D2D!important;
-	color:#ffffff!important;
+	color:#C0C0C0!important;
 }
 
 .simplelogin h1 {
 	color: #FF8C00;
-	font-family:Gotham-bold;
-	font-size: 20px;
-	text-transform: uppercase;
+	font-family:Gotham-light;
+	font-size: 32px;
 }
 
 .page-header {
@@ -185,10 +198,6 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
     -webkit-box-shadow: inset 0 0 0px 9999px white;
 }
 
-.region-header form-search {
-	border-right-width: 0;
-}
-
 .menu--account a:hover{
 	background-color: #111111!important;
 }
@@ -207,12 +216,23 @@ a:hover{
 }
 
 input{
-	color:#fff!important;
+	color:#C0C0C0!important;
 	background-color: #2D2D2D!important;
 }
 
 .search-advanced{
-	olor:#fff!important;
+	olor:#C0C0C0!important;
 	background-color: #2D2D2D!important;
 }
 
+.alert-danger{
+	color: #a94442;
+	font-size: 13px;
+	background-color:transparent!important;
+}
+
+.alert-danger a, .alert-danger a:focus, .alert-danger a:hover {
+		font-size: 13px;
+    color: red;
+    background-color:transparent!important;
+ }

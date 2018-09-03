@@ -55,7 +55,7 @@
   content: "\f2bd";
 }
 
-.region-header .menu--account li:last-child a::before {
+.region-header .menu--account li:last-child a:before {
   display: inline-block;
   padding-right: 0.5em;
   font-family: 'FontAwesome';
