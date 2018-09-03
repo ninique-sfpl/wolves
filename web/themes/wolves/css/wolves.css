@@ -236,3 +236,10 @@ input{
     color: red;
     background-color:transparent!important;
  }
+
+ .cke_source {
+	background-color: #2D2D2D!important;
+	color: #C0C0C0;
+	font-size: 80%;
+
+}
