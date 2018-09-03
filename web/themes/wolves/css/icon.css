@@ -67,3 +67,7 @@
   background-color: #2d2d2d;
   border-left-width:0;
 }
+
+.menu--categories a{
+  font-size: 20px;
+}
