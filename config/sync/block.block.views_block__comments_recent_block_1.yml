@@ -1,25 +1,25 @@
-uuid: f514a25b-1cac-4b65-aee5-3ad4ae1cd91e
+uuid: b6e8b750-ee4d-43d6-8984-6d13b1ba80bb
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.who_s_online
+    - views.view.comments_recent
   module:
     - user
     - views
   theme:
     - wolves
-id: views_block__who_s_online_who_s_online_block
+id: views_block__comments_recent_block_1
 theme: wolves
 region: sidebar_second
-weight: -2
+weight: -3
 provider: null
-plugin: 'views_block:who_s_online-who_s_online_block'
+plugin: 'views_block:comments_recent-block_1'
 settings:
-  id: 'views_block:who_s_online-who_s_online_block'
+  id: 'views_block:comments_recent-block_1'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility:
@@ -28,6 +28,7 @@ visibility:
     roles:
       authenticated: authenticated
       administrator: administrator
+      wildlife_and_gardening: wildlife_and_gardening
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'

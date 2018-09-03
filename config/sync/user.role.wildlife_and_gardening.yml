@@ -1,0 +1,9 @@
+uuid: 12c461da-78ed-493f-a524-9be9af3199c6
+langcode: en
+status: true
+dependencies: {  }
+id: wildlife_and_gardening
+label: 'Animals & Plants'
+weight: 3
+is_admin: null
+permissions: {  }

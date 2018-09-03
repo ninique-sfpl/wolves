@@ -1,0 +1,14 @@
+uuid: 9174a4c2-8f24-41fe-a02b-0ff89be2c47f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wildlife_and_gardening
+  module:
+    - user
+id: user_add_role_action.wildlife_and_gardening
+label: 'Add the Wildlife and Gardening role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: wildlife_and_gardening

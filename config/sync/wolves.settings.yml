@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: 'public://favicon.ico'
-  url: 'http://wolves.local/themes/wolves/favicon.ico'
+  url: 'http://wolves.zone/themes/wolves/favicon.ico'
   use_default: 1
 features:
   comment_user_picture: 1

@@ -1,0 +1,8 @@
+uuid: f0c272c7-f4a6-418b-9f50-5820316159c8
+langcode: en
+status: true
+dependencies: {  }
+id: categories
+label: Categories
+description: 'Categories Taxonomy'
+locked: false

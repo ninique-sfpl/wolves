@@ -1,0 +1,33 @@
+uuid: 1e3d6f2f-a359-4089-84af-645e292201d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.wildlife_and_gardening
+    - taxonomy.vocabulary.topics
+  content:
+    - 'taxonomy_term:topics:7c980920-1b84-4a26-97bc-3ae64f96d09e'
+id: node.wildlife_and_gardening.field_category
+field_name: field_category
+entity_type: node
+bundle: wildlife_and_gardening
+label: Category
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 7c980920-1b84-4a26-97bc-3ae64f96d09e
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

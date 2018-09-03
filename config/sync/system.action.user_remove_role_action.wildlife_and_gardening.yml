@@ -1,0 +1,14 @@
+uuid: e8a06102-64ed-4640-a312-f9306f047257
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.wildlife_and_gardening
+  module:
+    - user
+id: user_remove_role_action.wildlife_and_gardening
+label: 'Remove the Wildlife and Gardening role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: wildlife_and_gardening

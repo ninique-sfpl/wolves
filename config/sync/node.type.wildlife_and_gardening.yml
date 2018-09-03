@@ -1,0 +1,18 @@
+uuid: 9ab278df-c778-4dd3-8ce1-f0d79ba62bbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Wildlife and Gardening'
+type: wildlife_and_gardening
+description: 'Content type for the Wildlife and Gardening topic/category'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
