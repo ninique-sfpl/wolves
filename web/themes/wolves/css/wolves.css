@@ -216,4 +216,8 @@ input{
 	background-color: #2D2D2D!important;
 }
 
-
+.cke_source {
+	background-color: #2D2D2D!important;
+	color: #ffffff;
+	padding: 10px;
+}
