@@ -37,17 +37,17 @@
   display: inline-block;
   padding-right: 0.5em;
   font-family: FontAwesome;
-  content: "\f221";
+  content: "\f118";
 }
 
-.icon-wildlife::before {
+.icon-animal::before {
   display: inline-block;
   padding-right: 0.5em;
   font-family: FontAwesome; 
   content: "\f1b0";
 }
 
-/*
+
 .region-header .menu--account li:first-child a:before {
   display: inline-block;
   padding-right: 0.5em;
@@ -61,7 +61,7 @@
   font-family: 'FontAwesome';
   content: "\f2f5";
 }
-*/
+
 
 .search-form .form-submit.icon-only, .form-type-search .form-submit.icon-only{
   background-color: #2d2d2d;
