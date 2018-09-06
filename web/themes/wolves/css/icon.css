@@ -16,7 +16,7 @@
   display: inline-block;
   padding-right: 0.5em;
   font-family: FontAwesome;
-  content: "\f0f4"; /* "\f094"; */
+  content: "\F0F5"; /* "\f094"; */
 }
 
 .icon-health:before {
@@ -59,7 +59,7 @@
   display: inline-block;
   padding-right: 0.5em;
   font-family: 'FontAwesome';
-  content: "\f2f5";
+  content: "\f08b";
 }
 
 
