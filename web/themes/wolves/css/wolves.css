@@ -148,7 +148,9 @@ body.simplelogin{
 
 .simplelogin-form{
 	background-color: #111111;
+	width:360px;
 }
+
 .simplelogin-form input.form-submit, .simplelogin-form button.form-submit, .simplelogin-form input.form-submit:hover, .simplelogin-form input.form-submit:active, .simplelogin-form input.form-submit:focus, .simplelogin .link:hover, .simplelogin .link:focus {
 	padding:10px;
 }
@@ -243,3 +245,5 @@ input{
 	font-size: 80%;
 
 }
+
+@import url("responsive.css");

@@ -1,0 +1,42 @@
+/* Custom, iPhone Retina */
+@media (min-width: 320px) {
+	body{
+		background-color: #111111!important;
+	}
+	.simplelogin-form{
+		width:320px!important;
+		padding:0;
+	}
+	.region-content{
+		padding-left:50px;
+		padding-right:50px;
+	}
+	.simplelogin-logo{
+		margin-top:25px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body{
+		background-color: #2D2D2D!important;
+	}
+	.simplelogin-bg{
+		padding-bottom: 30px;
+	}
+	.simplelogin-form{
+		padding:50;
+	}
+	.simplelogin-logo{
+		margin-top:40px;
+		padding-top:20px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
