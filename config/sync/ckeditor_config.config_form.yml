@@ -1,1 +1,1 @@
-config: "skin = moono-dark\r\nuiColor = #000000"
+config: 'config.skin = ''moono-dark'';'
