@@ -35,6 +35,11 @@ body{
 .container-fluid{
 	padding:0;
 }
+
+.mm-page, .mm-wrapper_background body{
+	background-color: #2D2D2D;
+}
+
 h1{
 	font-family:Gotham-medium;
 	font-size:28px;
