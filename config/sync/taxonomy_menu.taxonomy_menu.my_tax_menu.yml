@@ -1,0 +1,14 @@
+uuid: 407ad2f4-2a49-4ed8-a116-611f05421b2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.categories2
+    - taxonomy.vocabulary.topics
+id: my_tax_menu
+label: 'My Tax Menu'
+vocabulary: topics
+menu: categories2
+expanded: false
+depth: 1
+menu_parent: 'admin:'

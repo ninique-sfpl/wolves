@@ -13,7 +13,7 @@ _core:
 id: wolves_main_menu
 theme: wolves
 region: header
-weight: -2
+weight: -3
 provider: null
 plugin: 'system_menu_block:main'
 settings:

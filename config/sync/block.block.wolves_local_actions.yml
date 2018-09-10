@@ -9,7 +9,7 @@ _core:
 id: wolves_local_actions
 theme: wolves
 region: header
-weight: -1
+weight: -2
 provider: null
 plugin: local_actions_block
 settings:
