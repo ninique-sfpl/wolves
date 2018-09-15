@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c467a0b2367e8aa1674ec718dfb20ec4",
-    "content-hash": "105b0ffb720e314f811ee990acef3f67",
+    "hash": "4fbc85fe53bb7b42b4b61a25bf48d588",
+    "content-hash": "e3e792f9715c72c29df6180a0f9ecaa7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2718,6 +2718,55 @@
             "homepage": "https://drupal.org/project/redirect_after_login",
             "support": {
                 "source": "http://cgit.drupalcode.org/redirect_after_login"
+            }
+        },
+        {
+            "name": "drupal/responsive_menu",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/responsive_menu",
+                "reference": "8.x-2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/responsive_menu-8.x-2.6.zip",
+                "reference": "8.x-2.6",
+                "shasum": "8dc4f4251ada211fad52aa9d0c02d50c4752d457"
+            },
+            "require": {
+                "drupal/core": "^8.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.6",
+                    "datestamp": "1515872884",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tancredi D'Onofrio (tanc)",
+                    "homepage": "https://www.drupal.org/u/tanc",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides a javascript based off-canvas responsive menu with depth. At wider browser widths it provides a horizontal menu capable of drop downs and flyouts",
+            "homepage": "https://drupal.org/project/responsive_menu",
+            "support": {
+                "source": "https://cgit.drupalcode.org/responsive_menu",
+                "issues": "https://drupal.org/project/issues/responsive_menu"
             }
         },
         {
