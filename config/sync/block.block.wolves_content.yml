@@ -11,7 +11,7 @@ _core:
 id: wolves_content
 theme: wolves
 region: content
-weight: -2
+weight: -6
 provider: null
 plugin: system_main_block
 settings:
@@ -19,4 +19,9 @@ settings:
   label: 'Main page content'
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: true
+    context_mapping: {  }

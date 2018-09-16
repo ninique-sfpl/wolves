@@ -104,7 +104,6 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 
 .region-content{
 	padding-left: 40px;
-	border-right: solid 1px #F0F0F0;
 	padding-right: 20px;
 	background-color: transparent;
 }

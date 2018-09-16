@@ -12,7 +12,7 @@ dependencies:
 id: views_block__who_s_online_who_s_online_block
 theme: wolves
 region: sidebar_second
-weight: -2
+weight: -5
 provider: null
 plugin: 'views_block:who_s_online-who_s_online_block'
 settings:

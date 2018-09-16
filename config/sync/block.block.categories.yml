@@ -12,7 +12,7 @@ dependencies:
 id: categories
 theme: wolves
 region: sidebar_second
-weight: -5
+weight: -6
 provider: null
 plugin: 'system_menu_block:categories'
 settings:

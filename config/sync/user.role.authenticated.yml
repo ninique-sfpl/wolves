@@ -22,5 +22,6 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format full_html'
   - 'use text format restricted_html'
   - 'view own unpublished content'
