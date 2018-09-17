@@ -11,8 +11,8 @@ _core:
   default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
 id: wolves_search
 theme: wolves
-region: header
-weight: -5
+region: content
+weight: -6
 provider: null
 plugin: search_form_block
 settings:

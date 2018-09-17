@@ -5,14 +5,15 @@ dependencies:
   config:
     - views.view.who_s_online
   module:
+    - system
     - user
     - views
   theme:
     - wolves
 id: views_block__who_s_online_who_s_online_block
 theme: wolves
-region: sidebar_second
-weight: -5
+region: content
+weight: 0
 provider: null
 plugin: 'views_block:who_s_online-who_s_online_block'
 settings:
@@ -31,3 +32,8 @@ visibility:
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
