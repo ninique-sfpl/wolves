@@ -1,0 +1,305 @@
+@font-face {
+    font-family: Gotham-book;
+    src: url('../fonts/gotham_svs/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-light;
+    src: url('../fonts/gotham_svs/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: Gotham-medium;
+    src: url('../fonts/gotham_svs/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: Gotham-bold;
+    src: url('../fonts/gotham_svs/GOTHAM-BOLD.TTF');
+}
+
+body{
+	font-family:Gotham-book;
+	margin-top: 0;
+	background-color: #2D2D2D;
+	color:#C0C0C0;
+	font-size: 180%;
+}
+
+.container-fluid{
+	padding:0;
+}
+
+.mm-page, .mm-wrapper_background body{
+	background-color: #2D2D2D;
+}
+
+h1{
+	font-family:Gotham-medium;
+	font-size:28px;
+}
+
+h2{
+	font-family:Gotham-medium;
+	font-size:24px;
+}
+
+.region-footer{
+	text-align:center;
+}
+
+input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color: #2D2D2D!important;
+	color: #C0C0C0!important;
+}
+
+/*
+.region-header .form-search, .region-header button{
+	margin-top: 15px;
+}
+
+
+
+
+
+.region-header .menu--account li a {
+	font-size: 100%;
+}
+
+.region-header form-search {
+	border-right-width: 0;
+}
+*/
+
+/* Header Section */
+
+.region-header{
+	border-bottom: solid 2px #F69925;
+	margin: 0 0 20px 0;
+	padding:0 25px 5px 25px;
+	
+	background-color: #111111; /* #262b30; */
+}
+
+.region-header .logo{
+	margin-top:-5px;
+}
+
+.logo{
+	margin-right:0;
+}
+
+.logo img, .simplelogin-logo img{
+	width:60px;
+}
+
+.region-header a{
+	color:#C0C0C0;
+	font-size: 20px;
+}
+
+.responsive-menu-toggle-icon{
+	margin-top:20px;
+	clear: both;
+}
+
+.responsive-menu-toggle-icon span.label{
+	color: #92bfbf;
+	clear: both;
+	text-transform: capitalize;
+}
+
+.responsive-menu-toggle-icon:before, .responsive-menu-toggle-icon:after, .responsive-menu-toggle-icon span.icon {
+	background: #92bfbf;
+	clear:both;
+}
+
+.region-header #block-wolves-tools{
+	display: inline-block;
+	clear: both;
+	margin-left:100px;
+	padding-top: 0;
+}
+
+.region-header .nav>li>a {
+  display: inline-block;
+  padding: 0;
+}
+
+.region-header #block-addcontent{
+	display: inline-block;
+	margin-left:80px;
+}
+
+ul.wolves-nav{
+	li-style-type: none;
+	margin-top:10px;
+}
+
+ul.wolves-nav li{
+	display: inline;
+	float:left;
+}
+
+.region-header .list-group-item{
+	background-color: #111111;
+	border: 0;
+	color: #92bfbf;
+}
+/* Content Section */
+
+.region-content{
+	padding-left: 40px;
+	padding-right: 20px;
+	background-color: transparent;
+}
+
+.page-header{
+	border-bottom: none;
+	margin-bottom:5px;
+}
+
+.author{
+	font-size:10px;
+	margin-bottom:5px;
+}
+
+.field--name-field-tags{
+	font-size:10px;
+}
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand a {
+	padding: 25px 60px 0 10px;
+	color: #F69925!important;
+	font-family:Gotham-light!important;
+	font-size: 32px!important;
+}
+
+.navbar-nav > li > a {
+	margin:1px;
+	margin-top:15px;
+	padding: 8px 8px 7px 8px;
+	font-size: 200%;
+}
+
+body.simplelogin{
+	background-image:none;
+	background-color:#2D2D2D;
+}
+
+.simplelogin-bg .region-content .page-header{
+	text-align: center;
+	font-size:16px;
+}
+
+.simplelogin-bg .region-content {
+	border-right: 0;
+}
+
+.simplelogin-form{
+	background-color: #111111;
+	width:360px;
+}
+
+.simplelogin-form input.form-submit, .simplelogin-form button.form-submit, .simplelogin-form input.form-submit:hover, .simplelogin-form input.form-submit:active, .simplelogin-form input.form-submit:focus, .simplelogin .link:hover, .simplelogin .link:focus {
+	padding:10px;
+}
+
+.simplelogin-form input.form-submit:hover, .simplelogin-form button.form-submit:hover, .simplelogin-form input.form-submit:hover, .simplelogin .link:hover {
+	background-color:#4EAO48;
+}
+
+.simplelogin-form input[type="submit"], .simplelogin-form button.form-submit {
+    text-transform: capitalize;
+    font-size:14px;
+    font-weight: normal;
+    color:#fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    border-width: auto;
+}
+
+.simplelogin-form input{
+	background-color: #2D2D2D!important;
+	color:#C0C0C0!important;
+}
+
+.simplelogin h1 {
+	color: #FF8C00;
+	font-family:Gotham-light;
+	font-size: 32px;
+}
+
+.page-header {
+	color: #808080!important;
+}
+
+.btn-primary {
+	color: #ccc;
+	background-color: #fff;
+	border-color: #ccc;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #eee;
+	border-color: #ccc;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:focus {
+    -webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+.menu--account a:hover{
+	background-color: #111111!important;
+}
+
+a {
+	color:#92bfbf;
+}
+
+a:hover{
+	background-color:transparent!important;
+	color:#F69925;
+}
+
+.field--item pre{
+	padding:0;
+}
+
+input{
+	color:#C0C0C0!important;
+	background-color: #2D2D2D!important;
+}
+
+.search-advanced{
+	olor:#C0C0C0!important;
+	background-color: #2D2D2D!important;
+}
+
+.alert-danger{
+	color: #a94442;
+	font-size: 13px;
+	background-color:transparent!important;
+}
+
+.alert-danger a, .alert-danger a:focus, .alert-danger a:hover {
+		font-size: 13px;
+    color: red;
+    background-color:transparent!important;
+ }
+
+ .cke_source {
+	background-color: #2D2D2D!important;
+	color: #C0C0C0;
+	font-size: 80%;
+
+}
+
+.mm-menu_offcanvas {
+    max-width: 280px;
+}
+
+.mm-wrapper_opening .mm-menu_offcanvas.mm-menu_opened~.mm-slideout {
+    transform: translate3d(280px,0,0);
+}
