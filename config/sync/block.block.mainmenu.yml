@@ -1,23 +1,23 @@
-uuid: 0504f207-09fc-4573-9a81-5775cc4d7b15
+uuid: 2be92bf5-c84c-4566-ad48-1dad61a7110e
 langcode: en
-status: false
+status: true
 dependencies:
   content:
-    - 'block_content:basic:6cd970d5-9923-4d08-8671-6070e004a9fe'
+    - 'block_content:basic:1d73e098-698a-4f82-ba68-ecfb7185c0f8'
   module:
     - block_content
     - user
   theme:
     - wolves
-id: addcontent
+id: mainmenu
 theme: wolves
 region: header
-weight: 0
+weight: -4
 provider: null
-plugin: 'block_content:6cd970d5-9923-4d08-8671-6070e004a9fe'
+plugin: 'block_content:1d73e098-698a-4f82-ba68-ecfb7185c0f8'
 settings:
-  id: 'block_content:6cd970d5-9923-4d08-8671-6070e004a9fe'
-  label: 'Add Content'
+  id: 'block_content:1d73e098-698a-4f82-ba68-ecfb7185c0f8'
+  label: 'Main Menu'
   provider: block_content
   label_display: '0'
   status: true
@@ -29,6 +29,7 @@ visibility:
     roles:
       authenticated: authenticated
       administrator: administrator
+      wildlife_and_gardening: wildlife_and_gardening
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'

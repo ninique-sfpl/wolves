@@ -146,6 +146,11 @@ ul.wolves-nav li{
 	border: 0;
 	color: #92bfbf;
 }
+
+.region-header .wolves{
+	width: 45%;
+}
+
 /* Content Section */
 
 .region-content{
