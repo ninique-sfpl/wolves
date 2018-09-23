@@ -53,14 +53,10 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	color: #C0C0C0!important;
 }
 
-/*
+
 .region-header .form-search, .region-header button{
 	margin-top: 15px;
 }
-
-
-
-
 
 .region-header .menu--account li a {
 	font-size: 100%;
@@ -69,20 +65,19 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 .region-header form-search {
 	border-right-width: 0;
 }
-*/
 
 /* Header Section */
 
 .region-header{
 	border-bottom: solid 2px #F69925;
-	margin: 0 0 20px 0;
-	padding:0 25px 5px 25px;
-	
+	margin: 0;
+	padding:0 25px 0 25px;
 	background-color: #111111; /* #262b30; */
 }
 
 .region-header .logo{
-	margin-top:-5px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .logo{
@@ -133,7 +128,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 
 ul.wolves-nav{
 	li-style-type: none;
-	margin-top:10px;
+	margin-top:15px;
 }
 
 ul.wolves-nav li{
@@ -141,6 +136,9 @@ ul.wolves-nav li{
 	float:left;
 }
 
+ul.wolves-nav li.last{
+	margin-right: 140px;
+}
 .region-header .list-group-item{
 	background-color: #111111;
 	border: 0;
@@ -148,15 +146,30 @@ ul.wolves-nav li{
 }
 
 .region-header .wolves{
-	width: 45%;
+	width: 60%;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 0;
 }
 
+.region-header .wolves-search input, .region-header .wolves-search button{
+	margin-top: 10px;
+}
+
+.region-header input.form-search, .region-header .button{
+	border: 0;
+	border-radius: 20px;
+}
 /* Content Section */
 
 .region-content{
 	padding-left: 40px;
 	padding-right: 20px;
 	background-color: transparent;
+}
+
+.region-content form#search-form{
+	display:none;
 }
 
 .page-header{
@@ -174,7 +187,7 @@ ul.wolves-nav li{
 }
 
 .navbar-brand, .navbar-brand:hover, .navbar-brand a {
-	padding: 25px 60px 0 10px;
+	padding: 30px 60px 0 10px;
 	color: #F69925!important;
 	font-family:Gotham-light!important;
 	font-size: 32px!important;
