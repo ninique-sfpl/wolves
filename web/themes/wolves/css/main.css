@@ -44,6 +44,11 @@ h2{
 	font-size:24px;
 }
 
+h3{
+	font-family:Gotham-medium;
+	font-size:20px;
+}
+
 .region-footer{
 	text-align:center;
 }
@@ -160,6 +165,19 @@ ul.wolves-nav li.last{
 	border: 0;
 	border-radius: 20px;
 }
+
+.region-header input.form-search:hover {
+	border-left-radius: 20px; border-right-width:0;
+}
+
+.region-header input.form-search:active {
+	border-left-radius: 20px; border-right-width:0;
+}
+
+.region-header .button:hover, .region-header .button:active{
+	border-right-radius: 20px;
+	border-left: 0;
+}
 /* Content Section */
 
 .region-content{
@@ -172,11 +190,17 @@ ul.wolves-nav li.last{
 	display:none;
 }
 
-.page-header{
+.region-content .page-header, body.toolbar-loading {
+    margin-top: 15px;
 	border-bottom: none;
 	margin-bottom:5px;
 }
 
+.region-content .alert-danger{
+	margin-top:15px;
+	border-color: #a94442;
+	border-radius: 10px;
+}
 .author{
 	font-size:10px;
 	margin-bottom:5px;
