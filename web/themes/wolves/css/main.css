@@ -206,8 +206,8 @@ ul.wolves-nav li.last{
 	margin-bottom:5px;
 }
 
-.field--name-field-tags{
-	font-size:10px;
+.field--name-field-tags, .field--name-field-categories{
+	font-size:12px;
 }
 
 .navbar-brand, .navbar-brand:hover, .navbar-brand a {
@@ -256,8 +256,8 @@ body.simplelogin{
     font-size:14px;
     font-weight: normal;
     color:#fff;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+    background-color: #5cb85c!important;
+    border-color: #5cb85c!important;
     border-width: auto;
 }
 
@@ -366,4 +366,14 @@ ul.menu--categories li a{
 
 ul.menu--categories li a:hover{
 	color:#555555!important;
+}
+
+.node-readmore {
+	display:none!important;
+}
+
+select.form-control.form-select, button.btn-default {
+	background-color:#555!important;
+	color: #fff!important;
+	border-color:#111111!important;
 }
