@@ -36,7 +36,7 @@ body{
 
 h1{
 	font-family:Gotham-medium;
-	font-size:28px;
+	font-size:30px;
 }
 
 h2{
@@ -191,7 +191,7 @@ ul.wolves-nav li.last{
 }
 
 .region-content .page-header, body.toolbar-loading {
-    margin-top: 15px;
+  margin-top: 25px;
 	border-bottom: none;
 	margin-bottom:5px;
 }
@@ -335,7 +335,16 @@ input{
 	background-color: #2D2D2D!important;
 	color: #C0C0C0;
 	font-size: 80%;
+}
 
+
+.filter-wrapper{
+	background-color: transparent;
+}
+
+.cke_bottom{
+	background: #1f1f1f!important;
+	background-image: -webkit-linear-gradient(top,#333,#1f1f1f)!important;
 }
 
 .mm-menu_offcanvas {
@@ -344,4 +353,17 @@ input{
 
 .mm-wrapper_opening .mm-menu_offcanvas.mm-menu_opened~.mm-slideout {
     transform: translate3d(280px,0,0);
+}
+
+.field--type-entity-reference .form-control{
+	background: transparent;
+	color: #C0C0C0; /* #2D2D2D; */
+}
+
+ul.menu--categories li a{
+	color:#92bfbf!important;
+}
+
+ul.menu--categories li a:hover{
+	color:#555555!important;
 }
