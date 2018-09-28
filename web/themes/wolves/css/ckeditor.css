@@ -11,6 +11,7 @@ body {
 .cke_bottom{
 	background: #1f1f1f!important;
 	background-image: -webkit-linear-gradient(top,#333,#1f1f1f)!important;
+	border-color:#6C6C6C!important;
 }
 
 .cke_inner{
@@ -24,4 +25,8 @@ body {
 
 #cke_edit-body-0-value, #cke_edit-body-0-value_arialbl{
 	border-color:#6C6C6C;
+}
+
+#cke_edit-body-0-value, #cke_edit-body-0-value_arialbl, #cke_edit-comment-body-0-value, *[id^="cke_edit-"]{
+	border-color:#6C6C6C!important;
 }

@@ -402,8 +402,8 @@ input[type=file], input[type=text], textarea, input[type=password], input[type=e
 }
 
 
-#cke_edit-body-0-value, #cke_edit-body-0-value_arialbl, #cke_edit-comment-body-0-value {
-	border-color:#6C6C6C;
+#cke_edit-body-0-value, #cke_edit-body-0-value_arialbl, #cke_edit-comment-body-0-value, *[id^="cke_edit-"]{
+	border-color:#6C6C6C!important;
 }
 
 
