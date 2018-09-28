@@ -377,3 +377,37 @@ select.form-control.form-select, button.btn-default {
 	color: #fff!important;
 	border-color:#111111!important;
 }
+
+#edit-contact{
+	display:none;
+}
+
+.panel {
+	background-color: transparent!important;
+	color: #D0D0D0!important;
+	border-color:#6C6C6C;
+}
+
+.panel-heading {
+	display:none;
+}
+
+input[type=file], input[type=text], textarea, input[type=password], input[type=email], 
+.field--name-body .filter-wrapper, .form-textarea-wrapper {
+	border-color:#6C6C6C;
+}
+
+.form-textarea.form-control{
+	background-color: transparent;
+}
+
+
+#cke_edit-body-0-value, #cke_edit-body-0-value_arialbl, #cke_edit-comment-body-0-value {
+	border-color:#6C6C6C;
+}
+
+
+
+
+
+

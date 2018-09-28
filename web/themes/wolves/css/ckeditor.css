@@ -7,3 +7,21 @@ body {
 	background-color: #2D2D2D!important;
 	color: #C0C0C0;
 }
+
+.cke_bottom{
+	background: #1f1f1f!important;
+	background-image: -webkit-linear-gradient(top,#333,#1f1f1f)!important;
+}
+
+.cke_inner{
+	border: solid 5px blue!important;
+}
+
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+  background-color: transparent;
+}
+
+
+#cke_edit-body-0-value, #cke_edit-body-0-value_arialbl{
+	border-color:#6C6C6C;
+}
