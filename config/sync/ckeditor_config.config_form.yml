@@ -1,1 +1,1 @@
-config: 'config.skin = ''moono'';'
+config: 'skin = moono-dark,/libraries/ckeditor/skins/moono-dark/'

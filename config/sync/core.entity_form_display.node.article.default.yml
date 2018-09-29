@@ -33,21 +33,21 @@ content:
     third_party_settings: {  }
   comment:
     type: comment_default
-    weight: 20
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
   field_categories:
-    weight: 121
+    weight: 2
     settings: {  }
     third_party_settings: {  }
-    type: options_buttons
+    type: options_select
     region: content
   field_image:
     type: image_image
@@ -65,7 +65,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -73,21 +73,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 7
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 11
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 8
     region: content
     third_party_settings: {  }
   title:
