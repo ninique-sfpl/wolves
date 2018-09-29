@@ -141,13 +141,19 @@ ul.wolves-nav li{
 	float:left;
 }
 
+
 ul.wolves-nav li.last{
 	margin-right: 140px;
 }
+
 .region-header .list-group-item{
 	background-color: #111111;
 	border: 0;
 	color: #92bfbf;
+}
+
+.region-header .list-group-item.active{
+	color: #F69925!important;
 }
 
 .region-header .wolves{
@@ -398,16 +404,40 @@ input[type=file], input[type=text], textarea, input[type=password], input[type=e
 }
 
 .form-textarea.form-control{
-	background-color: transparent;
+	background-color: transparent!important;
 }
 
-
-#cke_edit-body-0-value, #cke_edit-body-0-value_arialbl, #cke_edit-comment-body-0-value, *[id^="cke_edit-"]{
+*[id^="cke_edit-"], *[id^="edit-comment-body"]{
 	border-color:#6C6C6C!important;
 }
 
+.field--name-body {
+	background:transparent!important;
+	border:none;
+}
 
+.content pre {
+	border-color:#6C6C6C;
+	background-color:transparent;
+}
 
+.password-strength__meter{
+	background-color:#2D2D2D!important;
+}
 
+input:title{
+	display:none;
+}
 
+li.comment-add {
+	display:none;
+} 
 
+.form-item label{
+	font-size: 18px;
+}
+
+.form-item select option{
+	font-size:11px;
+	font-weight:thin;
+}

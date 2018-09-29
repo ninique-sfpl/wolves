@@ -1,4 +1,4 @@
-body {
+body, html {
 	background-color: #2D2D2D!important;
 	color: #ffffff;
 }
@@ -12,10 +12,11 @@ body {
 	background: #1f1f1f!important;
 	background-image: -webkit-linear-gradient(top,#333,#1f1f1f)!important;
 	border-color:#6C6C6C!important;
+	border-top: 0!important;
 }
 
 .cke_inner{
-	border: solid 5px blue!important;
+	background:transparent!important;
 }
 
 .cke_wysiwyg_frame, .cke_wysiwyg_div {
@@ -29,4 +30,12 @@ body {
 
 #cke_edit-body-0-value, #cke_edit-body-0-value_arialbl, #cke_edit-comment-body-0-value, *[id^="cke_edit-"]{
 	border-color:#6C6C6C!important;
+}
+
+.hljs {
+	padding: 1em;
+}
+
+.cke_wysiwyg_frame, .cke_wysiwyg_div, .cke_wysiwyg_frame.cke_reset, #cke_1_contents, .cke_reset, .cke_wysiwyg_frame.{
+	background-color:red!important;
 }

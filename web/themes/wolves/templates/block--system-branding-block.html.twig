@@ -1,0 +1,76 @@
+{% extends "block--bare.html.twig" %}
+{#
+/**
+ * @file
+ * Default theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ *
+ * @ingroup templates
+ */
+#}
+{% block content %}
+  {% if site_logo %}
+    <a class="logo navbar-btn pull-left" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+    </a>
+  {% endif %}
+  {% if site_name %}
+
+    <a class="name navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+    <section class="responsive-menu-toggle-wrapper responsive-menu-toggle block block-responsive-menu block-responsive-menu-toggle wolves clearfix" >
+      <ul class="wolves-nav">
+        <li>
+          <a class="list-group-item" href="/node" title="Home">
+            <i class="fa fa-home"></i> 
+          </a>
+        </li>
+        <li id="block-responsivemenumobileicon">
+          <a class="list-group-item" href="#off-canvas" title="Topics">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item" href="/node/add" title="Add Post">
+            <i class="fa  fa-pencil-square-o"></i>
+          </a>
+        </li>
+        <li>
+          <a class="list-group-item" href="/user/{{ user.id }}/edit" title="User Profile">
+            <i class="fas fa-user-alt"></i>
+          </a>
+        </li>
+        <li class="last">
+          <a class="list-group-item" href="/user/logout" title="Signout">
+            <i class="fas fa-sign-out-alt">
+            </i>
+          </a>
+        </li>
+      </ul>
+      <form accept-charset="UTF-8" action="/search/node" data-drupal-form-fields="edit-keys" id="search-block-form" method="get">
+        <div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group wolves-search ">
+          <label class="control-label sr-only" for="edit-keys">Search</label>
+          <div class="input-group">
+            <input class="form-search form-control" data-drupal-selector="edit-keys" id="edit-keys" maxlength="40" name="keys" placeholder="Search" size="5" title="" type="search" value="" />
+            <span class="input-group-btn">
+              <button class="button js-form-submit form-submit btn-primary btn icon-only" name="" type="submit" value="Search">
+                <span class="sr-only">Search</span>
+                <span aria-hidden="true" class="icon glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </form>
+    </section>
+
+  {% endif %}
+  {% if site_slogan %}
+    <p class="navbar-text">{{ site_slogan }}</p>
+  {% endif %}
+{% endblock %}
