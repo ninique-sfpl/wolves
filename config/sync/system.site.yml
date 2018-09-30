@@ -3,7 +3,7 @@ name: 'Wolves Zone'
 mail: admin@example.com
 slogan: 'Wolves Zone'
 page:
-  403: ''
+  403: /user/login
   404: /user/login
   front: /user/login
 admin_compact_mode: false
