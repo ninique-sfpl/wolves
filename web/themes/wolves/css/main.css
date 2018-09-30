@@ -152,8 +152,9 @@ ul.wolves-nav li.last{
 	color: #92bfbf;
 }
 
-.region-header .list-group-item.active{
+.region-header a.list-group-item:active{
 	color: #F69925!important;
+	background-color:#111111!important;
 }
 
 .region-header .wolves{
