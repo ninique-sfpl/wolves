@@ -42,7 +42,6 @@ settings:
             - Table
             - HorizontalRule
             - DrupalFontAwesome
-            - CodeSnippet
         -
           name: 'Block Formatting'
           items:
@@ -53,8 +52,9 @@ settings:
             - ShowBlocks
             - Source
         -
-          name: Markdown
+          name: 'Syntax Highlighter'
           items:
+            - CodeSnippet
             - Markdown
   plugins:
     language:

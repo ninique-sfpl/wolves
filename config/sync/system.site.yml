@@ -1,7 +1,7 @@
 uuid: e2aa2417-0933-4660-88a2-0eabfb963d32
-name: 'Wolves Zone'
+name: WOLVES
 mail: admin@example.com
-slogan: 'Wolves Zone'
+slogan: ''
 page:
   403: /user/login
   404: /user/login

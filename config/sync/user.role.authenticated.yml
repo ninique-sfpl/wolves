@@ -11,9 +11,10 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
+  - 'access in-place editing'
+  - 'access user profiles'
   - 'create article content'
+  - 'create terms in tags'
   - 'delete article revisions'
   - 'delete own article content'
   - 'edit own article content'
