@@ -36,6 +36,17 @@ body, html {
 	padding: 1em;
 }
 
+/*
 .cke_wysiwyg_frame, .cke_wysiwyg_div, .cke_wysiwyg_frame.cke_reset, #cke_1_contents, .cke_reset, .cke_wysiwyg_frame.{
 	background-color:red!important;
+}
+*/
+
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+    background-color: #000000!important;
+}
+
+.cke_bottom{
+	border-top: 0 solid #6C6C6C!important;
+	box-shadow: 0 0 0 #6C6C6C inset!important;
 }
