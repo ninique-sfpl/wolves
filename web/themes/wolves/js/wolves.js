@@ -19,6 +19,7 @@
 	$(".cke_wysiwyg_frame, cke_reset").css('background-color', 'black');
 
 
+	/* forward page to the formarted login page */
 	function loginPage(){
 
 		var $selector = $('.user-login-form');
@@ -27,10 +28,7 @@
       return;
    	}
    	var uri = "/" + location.pathname.substring(1);
-   	console.log('1:' + uri);
    	if(uri == '/' || uri == '/user/login' || uri == '/user/login/'){
-   		//window.location.href = '/user/login';
-   		console.log('2' + uri);
    		return;
    	}
    	window.location.href = '/user/login';
