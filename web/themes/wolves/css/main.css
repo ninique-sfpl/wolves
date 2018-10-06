@@ -58,6 +58,7 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 	color: #C0C0C0!important;
 }
 
+/* Header Section */
 
 .region-header .form-search, .region-header button{
 	margin-top: 15px;
@@ -70,8 +71,6 @@ input, input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofil
 .region-header form-search {
 	border-right-width: 0;
 }
-
-/* Header Section */
 
 .region-header{
 	border-bottom: solid 2px #F69925;
@@ -159,7 +158,7 @@ ul.wolves-nav li.last{
 
 .region-header .wolves{
 	width: 60%;
-	padding-left: 40px;
+	padding-left: 60px;
 	padding-right: 40px;
 	padding-bottom: 0;
 }
@@ -185,6 +184,21 @@ ul.wolves-nav li.last{
 	border-right-radius: 20px;
 	border-left: 0;
 }
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand a {
+	padding: 30px 60px 0 10px;
+	color: #F69925!important;
+	font-family:Gotham-light!important;
+	font-size: 20px!important;
+}
+
+.navbar-nav > li > a {
+	margin:1px;
+	margin-top:15px;
+	padding: 8px 8px 7px 8px;
+	font-size: 200%;
+}
+
 /* Content Section */
 
 .region-content{
@@ -217,20 +231,6 @@ ul.wolves-nav li.last{
 	font-size:12px;
 }
 
-.navbar-brand, .navbar-brand:hover, .navbar-brand a {
-	padding: 30px 60px 0 10px;
-	color: #F69925!important;
-	font-family:Gotham-light!important;
-	font-size: 32px!important;
-}
-
-.navbar-nav > li > a {
-	margin:1px;
-	margin-top:15px;
-	padding: 8px 8px 7px 8px;
-	font-size: 200%;
-}
-
 body.simplelogin{
 	background-image:none;
 	background-color:#2D2D2D;
@@ -259,7 +259,6 @@ body.simplelogin{
 }
 
 .simplelogin-form input[type="submit"], .simplelogin-form button.form-submit {
-    text-transform: capitalize;
     font-size:14px;
     font-weight: normal;
     color:#fff;
@@ -276,7 +275,7 @@ body.simplelogin{
 .simplelogin h1 {
 	color: #FF8C00;
 	font-family:Gotham-light;
-	font-size: 32px;
+	font-size: 20px;
 }
 
 .page-header {
@@ -441,4 +440,12 @@ li.comment-add {
 .form-item select option{
 	font-size:11px;
 	font-weight:thin;
+}
+
+#edit-body-0-format-help-about, #edit-comment-body-0-format-help{
+	display:none;
+}
+
+[id*='-format-help-about'],  [id*='-format-help']{
+	display:none;
 }
